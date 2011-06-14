@@ -417,20 +417,10 @@
 	
 	/*
 	
-	// HTML
-	
-	<html>	
-		<body>
-			<script type="text/javascript" src="jquery.js"></script>
-			
+	<html>
+		<body onload="App.init();">
 			<script type="text/javascript" src="application.js"></script>
 			<script type="text/javascript" src="views.js"></script>
-			
-			<script type="text/javascript">
-				$(document).ready(function() {
-					App.init();
-				});
-			</script>
 		</body>
 	</html>
 	
